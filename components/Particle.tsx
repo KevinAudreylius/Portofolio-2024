@@ -49,7 +49,7 @@ const Particle = () => {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 0,
               },
               repulse: {
                 distance: 100,
@@ -83,7 +83,7 @@ const Particle = () => {
                 enable: true,
                 area: 800,
               },
-              value: 60,
+              value: 80,
             },
             opacity: {
               value: 0.5,
