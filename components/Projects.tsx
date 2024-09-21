@@ -35,7 +35,6 @@ const Projects = () => {
                     </div>
                 </a>
             </div>
-          </div>
           <div data-aos="fade-up" data-aos-delay="1200">
               <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
                   <Image src="/images/soon.jpeg" alt='portofolio' layout="fill" className='object-contain' />
