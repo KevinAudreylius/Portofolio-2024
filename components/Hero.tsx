@@ -17,9 +17,17 @@ const Hero = () => {
                 Welcome to my creative portofolio. This website will help you to explore my work, discover my journey, and let's create something amazing together.
             </p>
             <div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
-                <a href="https://github.com/KevinAudreylius/portofolio-2024/blob/asset/CV%20.pdf" target="_blank" rel="noopener noreferrer">
+                <div className='md:pb-[0rem] pb-[1.8rem]'>
+                    <a href="https://github.com/KevinAudreylius/portofolio-2024/blob/asset/CV%20.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className='px-[1.8rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#9D59EF] text-black flex items-center space-x-2'>
+                            <p> View CV </p>
+                            <ArrowDownTrayIcon className='w-[2rem] h-[1.7rem] text-black'/>
+                        </button>
+                    </a>
+                </div>
+                <a href="https://github.com/KevinAudreylius/portofolio-2024/blob/asset/PORTFOLIO.pdf" target="_blank" rel="noopener noreferrer">
                     <button className='px-[1.8rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#9D59EF] text-black flex items-center space-x-2'>
-                        <p> View CV </p>
+                        <p> View PORTFOLIO </p>
                         <ArrowDownTrayIcon className='w-[2rem] h-[1.7rem] text-black'/>
                     </button>
                 </a>
